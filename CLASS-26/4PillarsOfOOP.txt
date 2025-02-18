@@ -1,0 +1,43 @@
+1. ENCAPSULATION
+_____________
+
+-> Save data integrity, 
+-> using getter and setter method for data protection.
+-> Dont use setter method for pivate/protected attributes
+
+
+2. Inheritance
+_____________
+
+-> A new class(child class) is derived from an existing class(Parent class)
+
+
+3. Abstraction
+_____________
+
+-> Abstract class is a blueprint of instructions for other classes
+-> Child classes have to inherit all the methods of abstract classes
+
+
+4. Plymorphism
+_____________
+
+-> Same same, But Different
+
+
+Use Typehint
+
+
+
+SOLID Design pattern
+--------------------
+S: Single Responsibility Principle
+    -> Function/method/class only does 1 job/responsibility
+O: Open closed principles
+    -> Software entities should be open for extension but closed for modification
+L: Liskov Substitution Principle
+    -> Try to avoid multilevel inheritance uf you have same method in each subclasses
+I: Interface Segregation Principle
+    -> Class should not be forced to implement interfaces it does not use
+D: Dependency Inversion Principle
+    -> Classes should depend on Abstraction classes not the other way around. Low level modules should depend on High level modules(abstract classes)

@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "name": "Mubassir",
+    "email": "mh.ipsc1820@gmail.com",
+    "books": [
+        {"id": 1, "name":"a"},
+        {"id": 2, "name":"b"}
+    ]
+}

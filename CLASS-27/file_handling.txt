@@ -1,0 +1,5 @@
+mode
+---------
+read 'r'
+write 'w'
+append 'a'

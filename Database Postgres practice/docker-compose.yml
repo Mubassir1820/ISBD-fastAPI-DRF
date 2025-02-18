@@ -1,0 +1,17 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: clinic-postgres-db
+    environment:
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+      POSTGRES_DB: clinicDB
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5455:5432"
+    restart: always
+
+volumes:
+  postgres_data:
+    driver: local

@@ -1,0 +1,18 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres-db
+    environment:
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+      POSTGRES_DB: blogdb
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5455:5432" 
+    # Expose PostgreSQL on port 5455 of the host
+    restart: always
+ 
+volumes:
+  postgres_data:
+    driver: local
